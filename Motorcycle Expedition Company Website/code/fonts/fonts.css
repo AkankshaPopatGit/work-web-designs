@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'BillyOhio';
+    src: url('BillyOhio.eot');
+    src: url('BillyOhio.eot') format('embedded-opentype'),
+         url('BillyOhio.woff2') format('woff2'),
+         url('BillyOhio.woff') format('woff'),
+         url('BillyOhio.ttf') format('truetype'),
+         url('BillyOhio.svg#BillyOhio') format('svg');
+}
+
+@font-face {
+    font-family: 'big_noodle_titling';
+    src: url('big_noodle_titling.eot');
+    src: url('big_noodle_titling.eot') format('embedded-opentype'),
+         url('big_noodle_titling.woff2') format('woff2'),
+         url('big_noodle_titling.woff') format('woff'),
+         url('big_noodle_titling.ttf') format('truetype'),
+         url('big_noodle_titling.svg#big_noodle_titling') format('svg');
+}
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('BebasRegular.eot');
+    src: url('BebasRegular.eot') format('embedded-opentype'),
+         url('BebasRegular.woff2') format('woff2'),
+         url('BebasRegular.woff') format('woff'),
+         url('BebasRegular.ttf') format('truetype'),
+         url('BebasRegular.svg#BebasRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue_bold.woff2') format('woff2'),
+         url('bebasneue_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('bebasneue_book.woff2') format('woff2'),
+         url('bebasneue_book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('bebasneue_light.woff2') format('woff2'),
+         url('bebasneue_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue_regular.woff2') format('woff2'),
+         url('bebasneue_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('bebasneue_thin.woff2') format('woff2'),
+         url('bebasneue_thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_lt_stdBlkCn';
+    src: url('helveticaltstd-blkcond.woff2') format('woff2'),
+         url('helveticaltstd-blkcond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_lt_stdbold';
+    src: url('helveticaltstd-bold.woff2') format('woff2'),
+         url('helveticaltstd-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_lt_stdcompressed';
+    src: url('helveticaltstd-comp.woff2') format('woff2'),
+         url('helveticaltstd-comp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_lt_stdXcompressed';
+    src: url('helveticaltstd-extracomp.woff2') format('woff2'),
+         url('helveticaltstd-extracomp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_lt_stdlight';
+    src: url('helveticaltstd-light.woff2') format('woff2'),
+         url('helveticaltstd-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_lt_sultracompressed';
+    src: url('helveticaltstd-ultracomp.woff2') format('woff2'),
+         url('helveticaltstd-ultracomp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

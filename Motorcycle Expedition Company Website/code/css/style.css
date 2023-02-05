@@ -1,0 +1,1384 @@
+.container {
+    max-width: 1304px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* navbar */
+
+.main-navbar {
+    position: absolute;
+    background-color: transparent;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar {
+    padding: 20px 45px 20px 45px;
+}
+
+.logo-nav {
+    z-index: 999;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav li {
+    margin-left: 15px;
+}
+
+.navbar-nav li a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.navbar-nav .first-social-li {
+    margin-left: 50px;
+}
+
+.navbar-nav li .social-icons {
+    width: 25px;
+    height: 25px;
+    border: 3px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.fa-bars {
+    color: white;
+}
+
+
+/* main-bavkground*/
+
+.main-background-section {
+    position: relative;
+}
+
+.bg-main {
+    width: 100%;
+    height: 980px;
+}
+
+.bg-1 {
+    position: absolute;
+}
+
+.bg-2 {
+    position: absolute;
+    right: 0;
+}
+
+.background-image {
+    width: 100%;
+    height: 952px;
+}
+
+.background-image-2 {
+    width: 100%;
+    height: 972px;
+}
+
+.background-text-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    transform: translate(0px, 215px);
+}
+
+.bg-text h2 {
+    margin: 0;
+    font-size: 87px;
+    font-weight: 400;
+    font-family: 'BillyOhio';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 165px;
+}
+
+.background-bike-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    transform: translate(0px, 360px);
+}
+
+/* ride with price*/
+
+.ride-with-price {
+    background-color: #ededed;
+    padding-bottom: 100px;
+}
+
+.ride-price {
+    width: 93.4375%;
+    margin: auto;
+}
+
+.rides {
+    margin: 0 -10px;
+}
+
+.ride {
+    padding-bottom: 10px;
+}
+
+.image-bike {
+    position: relative;
+    padding: 0 0 20px 20px;
+    margin-bottom: 15px;
+}
+
+.bike-img {
+    position: relative;
+    right: 0;
+    width: 100%;
+}
+
+.image-bike .red-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.image-bike h2 {
+    position: absolute;
+    bottom: 55px;
+    left: 30px;
+    font-size: 36px;
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    margin: 0;
+}
+
+.image-bike h2 span {
+    font-size: 21.56px;
+}
+
+.image-bike p {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 21.56px;
+    font-family: 'bebas_neuelight';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.rides .main-text {
+    padding: 15px 0 0 25px;
+}
+
+.main-text h2 {
+    font-size: 26px;
+    font-family: 'helvetica_lt_stdbold';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(32, 32, 32);
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.main-text p {
+    font-size: 17.78px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: rgb(103, 103, 103);
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.main-text button {
+    font-size: 21.15px;
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    width: 112px;
+    height: 40px;
+    background-color: #cd0a2d;
+    border: none;
+    border-radius: 20px;
+}
+
+/* we are world wide*/
+
+.we-are-world-wide {
+    position: relative;
+    background: #ededed;
+    z-index: 9;
+    overflow: hidden;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
+.vertical-bike {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%, 0%);
+    margin-top: -132px;
+    width: 357px;
+    z-index: 9;
+}
+
+.vertical-bike img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.color-section .col-sm-6 {
+    padding: 0;
+}
+
+.red-side {
+    position: relative;
+    margin-top: -64px;
+    margin-bottom: 64px;
+    padding: 60px 160px 30px 30px;
+}
+
+.red-side:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60000px;
+    height: 100%;
+    background: #cd0a2d;
+    z-index: -1;
+}
+
+.content-red h2 {
+    font-size: 68.16px;
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.reasons-why {
+    padding-bottom: 50px;
+}
+
+.reasons-why h3 {
+    font-size: 26px;
+    font-family: 'helvetica_lt_stdbold';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    margin: 0;
+}
+
+.reasons-why p {
+    font-size: 17.78px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 255, 255, 0.439);
+    margin: 0;
+}
+
+.white-side {
+    position: relative;
+    padding-left: 205px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-right: 50px;
+}
+
+.white-side:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60000px;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+}
+
+.second-one .row {
+    flex-direction: row-reverse;
+}
+
+.highlight-div h3 {
+    font-size: 47.64px;
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(94, 94, 94);
+    margin: 0;
+}
+
+.highlight-div h4 {
+    font-size: 25px;
+    font-family: 'bebas_neuelight';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(151, 151, 151);
+    margin: 0;
+}
+
+.paragraph-avatar p {
+    font-size: 17.78px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(4, 4, 4, 0.659);
+    margin: 0;
+}
+
+.avatars {
+    padding-bottom: 35px;
+}
+
+.avatars .row {
+    align-items: center;
+}
+
+.highlight-div .row {
+    align-items: center;
+    flex-direction: revert;
+}
+
+.highlight-div .col-sm-4 {
+    padding: 0;
+}
+
+/* john smith */
+
+.john-smith {
+    background-color: #ededed;
+}
+
+.john-smith-avtr {
+    padding-top: 180px;
+    margin-top: -64px;
+}
+
+.john-heading {
+    text-align: center;
+}
+
+.john-heading h2 {
+    font-size: 87px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    margin: 0;
+}
+
+.john-heading h2 span {
+    color: #cd0a2d;
+}
+
+.john-heading p {
+    font-size: 20px;
+    color: rgb(93, 92, 92);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 210px 10px 210px;
+}
+
+.john-template .row {
+    align-items: flex-end;
+}
+
+.john-smith-white {
+    padding-top: 95px;
+}
+
+.john-comment {
+    padding: 40px 80px 85px 80px;
+    text-align: center;
+    background-color: white;
+}
+
+.john-main .row {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.john-desc h3 {
+    font-size: 41.667px;
+    font-family: 'BebasRegular';
+    color: rgb(33, 33, 33);
+    margin: 0;
+}
+
+.john-desc p {
+    font-size: 30px;
+    font-family: 'bebas_neuelight';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(33, 33, 33);
+    margin: 0;
+}
+
+.john-comment .description {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(33, 33, 33);
+    font-style: italic;
+}
+
+.john-image {
+    padding-left: 100px;
+}
+
+/* world background*/
+
+.world-background {
+    background-image: url(../images/bg-world.png);
+    background-position: center center;
+    background-color: #1a1919;
+}
+
+.world-let-it-main {
+    position: relative;
+}
+
+.red-world {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 40%;
+    bottom: 0;
+    width: 50%;
+    background: #cd0a2d;
+    opacity: 0.7;
+}
+
+.world-inside {
+    color: white;
+    position: inherit;
+}
+
+.world-full {
+    padding: 80px 0 140px 0;
+}
+
+.world-heading {
+    text-align: center;
+}
+
+.world-heading h2 {
+    font-size: 68.16px;
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+}
+
+.world-heading h2 span {
+    color: #cd0a2d;
+}
+
+.world-heading p {
+    margin: 0;
+    padding: 40px 210px 150px 210px;
+    font-size: 17.78px;
+    font-family: 'Lato', sans-serif;
+}
+
+.world-bike {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    width: 372px;
+    padding: 0;
+}
+
+.world-left {
+    padding-right: 150px;
+}
+
+.kms .row {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kms-1 h3 {
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+}
+
+.kms-1 h3 span {
+    font-size: 20px;
+}
+
+.kms-1 h4 {
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+}
+
+.kms-2 h3 {
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+}
+
+.kms-2 h3 span {
+    font-size: 40px;
+}
+
+.kms-2 h4 {
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+}
+
+.kms-paragraph {
+    text-align: center;
+}
+
+.kms-paragraph p {
+    margin: 0;
+    font-size: 17.78px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 95px;
+}
+
+.world-right {
+    padding-left: 150px;
+}
+
+/* travel-blog */
+
+.travel-blog {
+    background-color: #ededed;
+}
+
+.travel-main {
+    padding-top: 135px;
+    padding-bottom: 40px;
+}
+
+.travel-heading {
+    text-align: center;
+}
+
+.travel-heading h2 {
+    font-size: 68.16px;
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+}
+
+.travel-heading p {
+    margin: 0;
+    padding: 35px 210px 45px 210px;
+    font-size: 17.78px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* start your journey */
+
+.start-your-journey {
+    overflow: hidden;
+}
+
+.div-journey {
+    position: relative;
+}
+
+.journey-content {
+    position: absolute;
+    left: 0%;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -70%);
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+.journey-content h3 {
+    margin: 0;
+    font-size: 68.16px;
+    font-family: 'bebas_neuebold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.journey-content p {
+    margin: 0;
+    font-size: 17.78px;
+    font-family: 'Lato', sans-serif;
+    padding: 45px 350px 0 350px;
+}
+
+/*footer*/
+
+.location-icon {
+    text-align: center;
+    margin-top: -120px;
+    z-index: 999;
+    position: relative;
+}
+
+.location-icon .fa-location-dot {
+    width: 130px;
+    height: 185px;
+    color: #cd0a2d;
+}
+
+.footer-top {
+    padding: 75px 0;
+}
+
+.div-icon {
+    padding-top: 10px;
+}
+
+.div-icon .contact-icon {
+    width: 55px;
+    height: 45px;
+}
+
+.div-detail h2 {
+    font-size: 26px;
+    font-family: 'helvetica_lt_stdbold';
+    font-weight: normal;
+    font-style: normal;
+    color: #181818;
+    margin: 0;
+    padding-bottom: 17px;
+}
+
+.div-detail p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #181818;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.footer-social-icon {
+    padding-top: 60px;
+}
+
+.footer-social-icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social-icon li {
+    list-style: none;
+    margin-left: 25px
+}
+
+.footer-social-icon li a {
+    color: black;
+}
+
+.footer-social-icon li .social-icons {
+    border: 3px solid #f0d839;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-social-icon .first-footer-social-li {
+    margin-left: 0px;
+}
+
+.footer-bottom {
+    background-color: #cd0a2d;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.footer-bottom h3 {
+    font-size: 17px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1351px) {
+    .navbar {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .navbar-nav .first-social-li {
+        margin-left: 20px;
+    }
+
+    .navbar-nav li {
+        margin-left: 15px;
+    }
+
+    .navbar-nav li a {
+        font-size: 15px;
+    }
+
+    .navbar-nav li .social-icons {
+        width: 15px;
+        height: 15px;
+        border: 2px solid;
+        padding: 8px;
+    }
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .navbar {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .logo-nav {
+        width: 100%;
+    }
+
+    .navbar-nav .first-social-li {
+        margin-left: 0px;
+    }
+
+    .navbar-nav li {
+        margin-left: 5px;
+    }
+
+    .navbar-nav li a {
+        font-size: 14px;
+    }
+
+    .navbar-nav li .social-icons {
+        width: 12px;
+        height: 12px;
+        border: 2px solid;
+        padding: 8px;
+    }
+
+    /*main background*/
+
+    .bg-main {
+        height: 1060px;
+    }
+
+    .bg-text h2 {
+        font-size: 70px;
+        padding: 0;
+    }
+
+    .bg-bike img {
+        width: 100%;
+    }
+
+    /* we are world wide*/
+
+    .vertical-bike img {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .red-side {
+        padding: 60px 100px 0px 20px;
+    }
+
+    .white-side {
+        padding-left: 110px;
+        padding-right: 20px;
+    }
+
+    /* john smith */
+
+     .john-heading p {
+        padding: 0 20px;
+    }
+
+    .john-image {
+        padding-left: 130px;
+    }
+
+    .john-image img {
+        width: 60%;
+    }
+
+    .john-comment {
+        padding: 20px;
+    }
+
+    /* world background */
+
+    .world-heading p {
+        padding: 40px 20px 150px 20px;
+    }
+
+    /* travel-blog */
+
+    .travel-heading p {
+        padding: 35px 20px 45px 20px;
+    }
+
+    /* start your journey */
+
+    .journey-content p {
+        padding: 45px 20px 0 20px;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .navbar {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .logo-nav {
+        width: 100%;
+    }
+
+    .navbar-nav .first-social-li {
+        margin-left: 0px;
+    }
+
+    .navbar-nav li {
+        margin-left: 5px;
+    }
+
+    .navbar-nav li a {
+        font-size: 10px;
+    }
+
+    .navbar-nav li .social-icons {
+        width: 10px;
+        height: 10px;
+        border: 2px solid;
+        padding: 5px;
+    }
+
+    /*main background*/
+
+    .bg-text h2 {
+        font-size: 70px;
+        padding: 0;
+    }
+
+    .bg-bike img {
+        width: 100%;
+    }
+
+    /* ride with price*/
+
+    .image-bike .red-left {
+        width: 60%;
+    }
+
+    /* we are world wide*/
+
+    .vertical-bike img {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .red-side {
+        padding: 60px 100px 60px 20px;
+    }
+
+    .white-side {
+        padding-left: 110px;
+        padding-right: 20px;
+    }
+
+    /* john smith */
+
+     .john-heading p {
+        padding: 0 20px;
+    }
+
+    .john-image {
+        padding-left: 0px;
+    }
+
+    .john-image img {
+        width: 100%;
+    }
+
+    .john-comment {
+        padding: 20px;
+    }
+
+    /* world background*/
+
+    .world-left .row {
+        flex-direction: column-reverse;
+    }
+
+    .kms-2 {
+        padding-bottom: 10px;
+    }
+
+    .world-heading p {
+        padding: 40px 20px 150px 20px;
+    }
+
+    /* travel-blog */
+
+    .travel-heading p {
+        padding: 35px 20px 45px 20px;
+    }
+
+    /* start your journey */
+
+    .journey-content p {
+        padding: 45px 20px 0 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .main-navbar {
+        background-color: #cd0a2d;
+    }
+
+    .navbar {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .navbar-nav .first-social-li {
+        margin-left: 0px;
+    }
+
+    .navbar-nav li {
+        margin-left: 0px;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /*main background*/
+
+    .bg-text h2 {
+        font-size: 70px;
+        padding: 0;
+    }
+
+    .bg-bike img {
+        width: 100%;
+    }
+
+    /* ride with price*/
+
+    .image-bike .red-left {
+        width: 70%;
+    }
+
+    /* we are world wide*/
+
+    .vertical-bike img {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .red-side {
+        padding: 60px 100px 60px 20px;
+    }
+
+    .white-side {
+        padding-left: 110px;
+        padding-right: 20px;
+    }
+
+    /* john smith */
+
+    .john-heading p {
+        padding: 0 20px;
+    }
+
+    .john-image {
+        padding-left: 0px;
+    }
+
+    .john-image img {
+        width: 100%;
+    }
+
+    .john-comment {
+        padding: 20px;
+    }
+
+    /* world background*/
+
+    .red-world {
+        top: 38%;
+    }
+
+    .world-left {
+        padding-right: 130px;
+    }
+
+    .world-left .row {
+        flex-direction: column-reverse;
+    }
+
+    .kms-2 {
+        padding-bottom: 10px;
+    }
+
+    .world-right {
+        padding-left: 130px;
+    }
+
+    .world-heading p {
+        padding: 40px 20px 150px 20px;
+    }
+
+    /* travel-blog */
+
+    .travel-heading p {
+        padding: 35px 20px 45px 20px;
+    }
+
+    /* start your journey */
+
+    .journey-content p {
+        padding: 45px 20px 0 20px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 575.9px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .main-navbar {
+        background-color: #cd0a2d;
+    }
+
+    .navbar {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .navbar-nav li {
+        margin-left: 0px;
+    }
+
+    .navbar-nav .first-social-li {
+        margin-left: 0px;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /*main background*/
+
+    .bg-main {
+        height: 780px;
+    }
+
+    .background-image {
+        width: 100%;
+        height: 752px;
+    }
+
+    .background-image-2 {
+        width: 100%;
+        height: 772px;
+    }
+    
+    .background-text-section {
+        transform: translate(0px, 235px);
+    }
+
+    .bg-text h2 {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .background-bike-section {
+        transform: translate(0px, 390px);
+    }
+
+    .bg-bike img {
+        width: 100%;
+    }
+
+    /* ride with price*/
+
+    .ride-with-price {
+        padding-bottom: 20px;
+    }
+
+    /* we ride world wide*/
+
+    .we-are-world-wide {
+        padding-top: 50px;
+    }
+
+    .vertical-bike {
+        top: auto;
+        transform: rotate(90deg);
+        width: 170px;
+        position: relative;
+        left: auto;
+        right: auto;
+        margin: -163px auto;
+    }
+
+    .red-side {
+        padding: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .red-side:before {
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .content-red {
+        text-align: center;
+    }
+
+    .white-side {
+        padding: 20px;
+    }
+
+    .white-side:after {
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .highlight-div .col-sm-4 {
+        padding: 0 12px;
+    }
+
+    .avatars {
+        text-align: center;
+    }
+
+    /* john smith */
+
+    .john-heading p {
+        padding: 0 20px;
+    }
+
+    .john-comment {
+        padding: 20px;
+    }
+
+    .john-image {
+        padding-left: 0px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .john-image img {
+        width: 50%;
+    }
+
+    .john-smith-avtr {
+        padding-top: 120px;
+    }
+
+    .john-smith-white {
+        padding-top: 35px;
+    }
+
+    .john-comment .description {
+        margin: 0;
+    }
+
+    /* world background */
+
+    .red-world {
+        top: 0%;
+    }
+
+    .world-full {
+        padding: 20px;
+    }
+
+    .world-heading h2 {
+        font-size: 48.16px;
+    }
+
+    .world-heading p {
+        padding: 20px 0;
+    }
+
+    .world-bike {
+        top: auto;
+        transform: rotate(90deg);
+        margin-top: 0;
+        width: 150px;
+        position: relative;
+        left: 25%;
+        right: auto;
+        margin: -80px 0;
+    }
+
+    .world-bike img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .world-left {
+        padding-right: 0px;
+    }
+
+    .world-right {
+        padding-left: 0px;
+    }
+
+    .kms-paragraph p {
+        padding-top: 10px;
+    }
+
+    .world-left .row {
+        flex-direction: column-reverse;
+    }
+
+    .kms-2 {
+        padding-bottom: 10px;
+    }
+
+    /* travel-blog */
+
+    .travel-main {
+        padding-top: 75px;
+    }
+
+    .travel-heading p {
+        padding: 35px 20px 45px 20px;
+    }
+
+    /* start your journey */
+
+    .journey-content p {
+        padding: 25px 10px 0 10px;
+    }
+
+    .journey-content {
+        transform: translate(0%, -60%);
+    }
+
+    /*footer*/
+
+    .footer-top {
+        padding: 25px 0 75px 0;
+    }
+
+    .location-icon {
+        margin-top: -70px;
+    }
+
+    .location-icon .fa-location-dot {
+        width: 80px;
+        height: 135px;
+    }
+
+    .contact-detail {
+        text-align: center;
+    }
+
+    .footer-social-icon li {
+        margin-left: 8px;
+    }
+
+    .footer-social-icon li .social-icons {
+        width: 18px;
+        height: 18px;
+        padding: 5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 319.9px) {
+    .footer-social-icon li {
+        margin-left: 2px;
+    }
+}
