@@ -1,0 +1,2226 @@
+/* font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1224px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix {
+    overflow: auto;
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html.active {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header-start */
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.fa-bars {
+    color: #000000;
+}
+
+.whole-navbar .navbar ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3B3C45;
+}
+
+.whole-navbar .navbar ul li:first-child {
+    padding-left: 0;
+}
+
+.whole-navbar .navbar ul li:last-child {
+    padding-right: 100px;
+}
+
+.whole-navbar .navbar ul li a {
+    color: inherit;
+}
+
+.whole-navbar .navbar ul li.active a,
+.whole-navbar .navbar ul li a.active,
+.whole-navbar .navbar ul li a:hover {
+    color: #03989E;
+}
+
+.whole-navbar .header-contact button {
+    width: 180px;
+    height: 54px;
+    border-radius: 5px;
+    background: #FF2768;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.whole-navbar .header-contact button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* header-end */
+
+/* footer-start */
+
+.footer {
+    background: #EAFEFF;
+    padding: 38px 0;
+}
+
+.footer-main .footer-copyright {
+    text-align: center;
+}
+
+.footer-main .footer-copyright p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #444655;
+}
+
+.footer .footer-main .footer-icons {
+    float: right;
+}
+
+.footer .footer-main .footer-icons ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-main .footer-icons ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer .footer-main .footer-icons ul li:first-child {
+    padding-left: 0;
+}
+
+.footer .footer-main .footer-icons ul li:last-child {
+    padding-right: 0;
+}
+
+.footer-main .footer-icons ul li {
+    color: #03989E;
+}
+
+.footer-main .footer-icons ul li a {
+    color: inherit;
+}
+
+.footer-main .footer-icons ul li.active a,
+.footer-main .footer-icons ul li a.active,
+.footer-main .footer-icons ul li a:hover {
+    color: #FF2768;
+}
+
+.footer-main .footer-icons ul li a .social-icons {
+    color: inherit;
+    width: 25px;
+    height: 25px;
+}
+
+/* footer-end */
+
+/* hero-section-start */
+
+.hero-section {
+    background: #03989E;
+    position: relative;
+}
+
+.hero-section .half-round {
+    position: absolute;
+    right: 0;
+    bottom: -273px;
+}
+
+.hero-main .hero-logo {
+    padding-top: 98px;
+    padding-bottom: 40px;
+}
+
+.hero-main .hero-text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.hero-section .all-hero-image {
+    float: right;
+    position: relative;
+    margin-bottom: -109px;
+    margin-top: 70px;
+}
+
+.hero-section .all-hero-image:before {
+    position: absolute;
+    content: "";
+    left: -63px;
+    bottom: -66px;
+    background: url("../images/mobile-back-dots.svg") no-repeat;
+    background-size: 100% 100%;
+    width: 326px;
+    height: 358px;
+}
+
+.hero-section .all-hero-image .mobile {
+    float: right;
+    position: relative;
+    z-index: 99;
+}
+
+/* hero-section-end */
+
+/* fixing-and-repairing-start */
+
+.main-fixing-and-repairing {
+    margin-top: 169px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.main-fixing-and-repairing .main-illustration .img-block {
+    padding-left: 35px;
+}
+
+.main-illustration {
+    position: relative;
+}
+
+.main-illustration .img-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: -1;
+}
+
+.main-illustration .damaged-products {
+    float: right;
+    padding-top: 92px;
+    padding-bottom: 85px;
+    width: 50%;
+}
+
+.main-illustration .damaged-products h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #050A30;
+}
+
+.main-illustration .damaged-products p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #444655;
+    padding-top: 35px;
+}
+
+/* fixing-and-repairing-end */
+
+/* costly-for-start */
+
+.main-costly-for {
+    margin-bottom: 120px;
+    overflow: hidden;
+}
+
+.main-costly-for .main-illustration .damaged-products {
+    float: left;
+    padding: 104px 0;
+}
+
+.main-costly-for .main-illustration .img-block {
+    left: auto;
+    padding-right: 20px;
+}
+
+.main-costly-for .main-illustration .damaged-products p {
+    padding-right: 100px;
+}
+
+/* costly-for-end */
+
+/* what-we-do-start */
+
+.what-we-do {
+    padding: 74px 0;
+    background: #FF2768;
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.what-we-do .shape-pink {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 555px;
+    height: 565px;
+    z-index: -1;
+}
+
+.what-we-do .main-illustration .damaged-products h2 {
+    color: #ffffff;
+}
+
+.what-we-do .main-illustration .damaged-products p {
+    color: #ffffff;
+    padding-top: 44px;
+}
+
+.what-we-do .main-illustration .damaged-products {
+    padding-top: 118px;
+    padding-bottom: 122px;
+}
+
+.what-we-do .main-illustration .img-block {
+    padding-left: 63px;
+}
+
+/* what-we-do-end */
+
+/* how-it-works-start */
+
+.how-it-works {
+    background: #FFDE59;
+    position: relative;
+    padding: 1px 0;
+}
+
+.how-it-works .eclipse-yellow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 565px;
+    height: 565px;
+}
+
+.how-it-works .how-works {
+    position: relative;
+    z-index: 99;
+}
+
+.how-it-works .how-works .work-main-text {
+    padding-top: 100px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+
+.how-it-works .how-works .work-main-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #050A30;
+}
+
+.how-it-works .video-testimonial {
+    position: relative;
+}
+
+.how-it-works .video-testimonial .video-image {
+    text-align: center;
+    margin-bottom: -117px;
+}
+
+.how-it-works .video-testimonial .video-image img {
+    border: 18px solid #ffffff;
+    border-radius: 25px;
+    box-shadow: 20px 30px 80px rgba(0, 0, 0, 0.14);
+}
+
+.how-it-works .video-testimonial .video-play-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.how-it-works .video-testimonial .video-play-main .play-icon {
+    display: block;
+    height: 114px;
+    width: 114px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.how-it-works .video-testimonial .video-play-main .play-icon:hover {
+    opacity: 0.8;
+}
+
+.how-it-works .video-testimonial .video-play-main .play-icon .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 26px;
+    height: 20px;
+    color: #FF2768;
+}
+
+.how-it-works .video-testimonial .video-play-main .play-icon .play:hover {
+    color: #03989E;
+}
+
+.how-it-works .video-testimonial .video-player {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    z-index: 9;
+}
+
+.how-it-works .video-testimonial .video-player span {
+    position: absolute;
+    left: 95%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.how-it-works .video-testimonial .video-player .fa-xmark {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+/* how-it-works-end */
+
+/* vision-start */
+
+.vision {
+    padding-top: 279px;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+
+.vision .main-illustration .damaged-products {
+    float: left;
+    padding-top: 115px;
+    padding-bottom: 143px;
+}
+
+.vision .main-illustration .damaged-products p {
+    padding-right: 50px;
+}
+
+.vision .main-illustration .img-block {
+    left: auto;
+    padding-right: 30px;
+}
+
+/* vision-end */
+
+/* mission-start */
+
+.mission {
+    padding-bottom: 101px;
+    overflow: hidden;
+}
+
+.mission .main-illustration .damaged-products {
+    padding-top: 128px;
+    padding-bottom: 168px;
+}
+
+.mission .main-illustration .damaged-products p {
+    padding-top: 38px;
+}
+
+.mission .main-illustration .img-block {
+    padding-left: 71px;
+}
+
+/* mission-end */
+
+/* benefits-for-consumers-start */
+
+.benefits-for-consumers {
+    background: #FF2768;
+    padding-top: 88px;
+    padding-bottom: 96px;
+    position: relative;
+    overflow: hidden;
+}
+
+.benefits-for-consumers .eclipse-pink {
+    position: absolute;
+    top: 0;
+    right: 264px;
+    height: 233px;
+}
+
+.benefits-for-consumers .wave-pink {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 367px;
+}
+
+.benefits-for-consumers .benefits {
+    position: relative;
+    z-index: 99;
+}
+
+.benefits-for-consumers .benefits .benefits-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.benefits-for-consumers .benefits .benefits-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.benefits-for-consumers .benefits .benefits-list {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.benefits-for-consumers .benefits .benefits-list .benefit-list-item {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 44px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 60px;
+    background: #03989E;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 280px;
+}
+
+.benefits-for-consumers .benefits .benefits-list .benefit-list-text {
+    margin-top: 29px;
+}
+
+.benefits-for-consumers .benefits .benefits-list .benefit-list-text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+/* benefits-for-consumers-end */
+
+/* benefits-for-retailers-start */
+
+.benefits-for-retailers {
+    background: #FFDE59;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    position: relative;
+    overflow: hidden;
+}
+
+.benefits-for-retailers .dot-yellow {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.benefits-for-retailers .retailers {
+    position: relative;
+    z-index: 99;
+}
+
+.benefits-for-retailers .retailers .retailers-heading h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    color: #050A30;
+}
+
+.benefits-for-retailers .retailers .retailers-heading h2 span {
+    display: block;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 26px;
+    line-height: 39px;
+    color: inherit;
+}
+
+.benefits-for-retailers .retailers .row {
+    align-items: center;
+}
+
+.benefits-for-retailers .retailers .retailers-list-left {
+    margin-bottom: -30px;
+    margin-right: 25px;
+}
+
+.benefits-for-retailers .retailers .retailers-list-left .retailers-list {
+    margin-bottom: 30px;
+}
+
+.benefits-for-retailers .retailers .retailers-list-right {
+    margin-bottom: -10px;
+}
+
+.benefits-for-retailers .retailers .retailers-list-right .retailers-list {
+    margin-bottom: 10px;
+}
+
+.retailers .list-with-margin {
+    margin-right: -39px;
+    margin-left: 39px;
+}
+
+ /* retailer-common-start */
+
+.benefits-for-retailers .retailers .retailers-list {
+    width: 355px;
+}
+
+.benefits-for-retailers .retailers .retailers-list .r-detail-main {
+    padding-top: 20px;
+    padding-bottom: 34px;
+    padding-left: 20px;
+    padding-right: 18px;
+    background: #050A30;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 160px;
+}
+
+.benefits-for-retailers .retailers .retail-text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-top: 14px;
+}
+
+ /* retailer-common-end */
+
+/* benefits-for-retailers-end */
+
+/* work-with-us-start */
+
+.work-with-us {
+    padding: 120px 0;
+    overflow: hidden;
+}
+
+.work-with-us .form-section .dot-form {
+    position: absolute;
+    left: 31px;
+    top: -65px;
+    z-index: -1;
+}
+
+.work-with-us .form-section .round-form {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
+.work-with-us .form-section .wave-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.work-with-us .form-section {
+    position: relative;
+    text-align: center;
+    background: #03989E;
+    padding-top: 82px;
+    padding-bottom: 90px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    z-index: 9;
+}
+
+.work-with-us .form-section .form-heading h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.work-with-us .form-section .work-form .work-form-list .row {
+    justify-content: center;
+}
+
+.work-with-us .work-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.work-with-us .work-form .form-group .field-icon {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+.work-with-us .work-form input, 
+.work-with-us .work-form textarea {
+    width: 100%;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 46px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #444655;
+    padding: 23px 23px 23px 48px;
+}
+
+.work-with-us .work-form .message {
+    margin-bottom: 0;
+}
+
+.work-with-us .work-form textarea {
+    height: 170px;
+    resize: none; 
+    overflow: hidden;
+}
+
+.work-with-us .form-section .form-start .div-button {
+    margin-top: 60px;
+}
+
+.work-with-us .form-section .form-start .div-button button {
+    width: 176px;
+    height: 54px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #03989E;
+}
+
+.work-with-us .form-section .form-start .div-button button:hover {
+    color: #FF2768;
+    cursor: pointer;
+}
+
+.work-with-us .form-section .form-start .div-button button .fa-paper-plane {
+    padding-left: 10px;
+}
+
+/* work-with-us-end */
+
+
+
+
+
+/* responsive */
+
+@media (min-width: 2600px) {
+
+    .main-fixing-and-repairing .main-illustration .img-block {
+        padding-left: 25% !important;
+    } 
+
+    .what-we-do .main-illustration .img-block {
+        padding-left: 25% !important;
+    }
+
+    .main-costly-for .main-illustration .img-block {
+        padding-right: 25% !important;
+    }
+
+    .vision .main-illustration .img-block {
+        padding-right: 25% !important;
+    }
+
+    .mission .main-illustration .img-block {
+        padding-left: 25% !important;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+    /* .container {
+        max-width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .main-fixing-and-repairing .main-illustration .img-block {
+        padding-left: 15%;
+    } 
+
+    .what-we-do .main-illustration .img-block {
+        padding-left: 15%;
+    }
+
+    .main-costly-for .main-illustration .img-block {
+        padding-right: 15%;
+    }
+
+    .vision .main-illustration .img-block {
+        padding-right: 15%;
+    }
+
+    .mission .main-illustration .img-block {
+        padding-left: 15%;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1295px) {
+
+    /* fixing-and-repairing-start */
+
+    .main-fixing-and-repairing .main-illustration .img-block {
+        padding-left: 5px;
+    }
+
+    /* fixing-and-repairing-end */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+
+    /* header-start */
+
+    .whole-navbar .navbar ul li:last-child {
+        padding-right: 15px;
+    }
+
+    /* header-end */
+
+    /* fixing-and-repairing-start */
+
+    .main-illustration .damaged-products {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .main-illustration .damaged-products h2 {
+        font-size: 30px;
+    }
+
+    .main-illustration .damaged-products p {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .main-illustration .img-block img {
+        width: 40%;
+    }
+
+    /* fixing-and-repairing-end */
+
+    /* costly-for-start */
+
+    .main-costly-for {
+        margin-bottom: 70px;
+    }
+
+    .main-costly-for .main-illustration .img-block {
+        left: 0;
+        transform: translate(60%, -50%);
+    }
+
+    .main-costly-for .main-illustration .damaged-products p {
+        padding-right: 0;
+    }
+
+    .main-costly-for .main-illustration .damaged-products {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* costly-for-end */
+
+    /* what-we-do-start */
+
+    .what-we-do {
+        padding: 70px 0;
+    }
+
+    .what-we-do .shape-pink {
+        width: 355px;
+        height: 467px;
+    }
+
+    .what-we-do .main-illustration .damaged-products {
+        padding: 90px 0;
+    }
+
+    .what-we-do .main-illustration .damaged-products p {
+        padding-top: 20px;
+    }
+
+    /* what-we-do-end */
+
+    /* vision-start */
+
+    .vision {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    .vision .main-illustration .damaged-products {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .vision .main-illustration .damaged-products p {
+        padding-right: 0;
+    }
+
+    .vision .main-illustration .img-block {
+        left: 0;
+        transform: translate(60%, -50%);
+    }
+
+    /* vision-end */
+
+    /* mission-start */
+
+    .mission {
+        margin-bottom: 70px;
+    }
+
+    .mission .main-illustration .damaged-products {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* mission-end */
+
+    /* benefits-for-retailers-start */
+
+        /* retailer-common-start */
+
+    .benefits-for-retailers .retailers .retailers-list {
+        width: 300px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list .r-detail-main {
+        height: 180px;
+    }
+
+    .retailers .list-with-margin {
+        margin-right: -19px;
+        margin-left: 19px;
+    }
+    
+            /* retailer-common-end */
+    
+    /* benefits-for-retailers-end */
+
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+
+    /* header-start */
+
+    .whole-navbar .navbar ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .whole-navbar .navbar ul li:last-child {
+        padding-right: 10px;
+    }
+
+    .whole-navbar .header-contact button {
+        width: 100px;
+        height: 50px;
+    }
+
+    /* header-end */
+
+    /* fixing-and-repairing-start */
+
+    .main-illustration .damaged-products {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main-illustration .damaged-products h2 {
+        font-size: 30px;
+    }
+
+    .main-illustration .damaged-products p {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .main-illustration .img-block img {
+        width: 40%;
+    }
+
+    /* fixing-and-repairing-end */
+
+    /* costly-for-start */
+
+    .main-costly-for {
+        margin-bottom: 70px;
+    }
+
+    .main-costly-for .main-illustration .img-block {
+        left: 0;
+        transform: translate(60%, -50%);
+    }
+
+    .main-costly-for .main-illustration .damaged-products p {
+        padding-right: 0;
+    }
+
+    .main-costly-for .main-illustration .damaged-products {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* costly-for-end */
+
+    /* what-we-do-start */
+
+    .what-we-do {
+        padding: 70px 0;
+    }
+
+    .what-we-do .shape-pink {
+        width: 355px;
+        height: 467px;
+    }
+
+    .what-we-do .main-illustration .damaged-products {
+        padding: 90px 0;
+    }
+
+    .what-we-do .main-illustration .damaged-products p {
+        padding-top: 20px;
+    }
+
+    /* what-we-do-end */
+
+    /* how-it-works-start */
+
+    .how-it-works .eclipse-yellow {
+        width: 467px;
+        height: 467px;
+    }
+
+    .how-it-works .how-works .work-main-text {
+        padding-top: 70px;
+        padding-bottom: 37px;
+    }
+
+    .how-it-works .video-testimonial .video-image {
+        margin-bottom: -59px;
+    }
+
+    .how-it-works .video-testimonial .video-image img {
+        width: 90%;
+        border: 9px solid #ffffff;
+        box-shadow: 9.06606px 13.5991px 36.2642px rgba(0, 0, 0, 0.14);
+    }
+
+    .how-it-works .video-testimonial .video-player span {
+        transform: translate(-60%,-40%);
+        padding: 0;
+    }
+
+    .how-it-works .video-testimonial .video-player .fa-xmark {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* how-it-works-end */
+
+    /* vision-start */
+
+    .vision {
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+
+    .vision .main-illustration .damaged-products {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .vision .main-illustration .damaged-products p {
+        padding-right: 0;
+    }
+
+    .vision .main-illustration .img-block {
+        left: 0;
+        transform: translate(60%, -50%);
+    }
+
+    /* vision-end */
+
+    /* mission-start */
+
+    .mission {
+        margin-bottom: 70px;
+    }
+
+    .mission .main-illustration .damaged-products {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* mission-end */
+
+    /* benefits-for-retailers-start */
+
+        /* retailer-common-start */
+
+    .benefits-for-retailers .retailers .retailers-list {
+        width: 230px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list .r-detail-main {
+        height: 180px;
+    }
+
+    .retailers .list-with-margin {
+        margin-right: -19px;
+        margin-left: 19px;
+    }
+
+        /* retailer-common-end */
+
+    /* benefits-for-retailers-end */
+
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+
+    /* header-start */
+
+    .navbar-nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .whole-navbar .header-contact {
+        text-align: center;
+    }
+
+    .whole-navbar .navbar ul li {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .whole-navbar .navbar ul li:last-child {
+        padding-right: 0;
+    }
+
+    /* header-end */
+
+    /* footer-start */
+
+    .footer .footer-main .footer-icons ul li {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* footer-end */
+
+    /* hero-section-start */ 
+
+    .hero-section .hero-main {
+        text-align: center;
+    }
+    
+    .hero-section .half-round {
+        width: 231px;
+        bottom: -186px;
+    }
+
+    .hero-main .hero-logo {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    .hero-main .hero-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero-section .all-hero-image {
+        padding-top: 40px;
+        float: none;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .hero-section .all-hero-image:before {
+        left: -40px;
+        bottom: -120px;
+        width: 234px;
+        height: 250px;
+    }
+
+    .hero-section .all-hero-image .mobile {
+        width: 234px;
+        height: 471px;
+        float: none;
+        margin-bottom: -79px;
+        margin-top: 0;
+    }
+
+    /* hero-section-end */
+
+    /* fixing-and-repairing-start */
+
+    .main-fixing-and-repairing .main-illustration .img-block {
+        padding-left: 0;
+    }
+
+    .main-fixing-and-repairing {
+        padding-left: 0;
+        margin-top: 240px;
+        margin-bottom: 84px;
+    }
+
+    .main-illustration .damaged-products {
+        float: none;
+        padding-top: 0;
+        padding-bottom: 41px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-illustration .img-block {
+        position: relative;
+        transform: none;
+    }
+
+    .main-illustration .img-block img {
+        width: 100%;
+        padding: 0 45px;
+    }
+
+    .main-illustration .damaged-products h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .main-illustration .damaged-products p {
+        font-size: 14px;
+        line-height: 19px;
+        padding-top: 32px;
+    }
+
+    /* fixing-and-repairing-end */
+
+    /* costly-for-start */
+
+     .main-costly-for {
+        margin-bottom: 63px;
+        padding-right: 0;
+    }
+
+    .main-costly-for .main-illustration .img-block {
+        padding-right: 0;
+    }
+
+    .main-costly-for .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 46px;
+    }
+
+    .main-costly-for .main-illustration .damaged-products p {
+        padding-right: 0;
+    }
+
+    /* costly-for-end */
+
+    /* what-we-do-start */
+
+    .what-we-do {
+        padding-top: 48px;
+        padding-bottom: 42px;
+    }
+
+    .what-we-do .shape-pink {
+        width: 355px;
+        height: 467px;
+    }
+
+    .what-we-do .main-illustration .img-block {
+        padding-left: 0;
+    }
+
+    .what-we-do .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .what-we-do .main-illustration .damaged-products p {
+        padding-top: 40px;
+    }
+
+    /* what-we-do-end */
+
+    /* how-it-works-start */
+
+    .how-it-works .eclipse-yellow {
+        width: 367px;
+        height: 367px;
+    }
+
+    .how-it-works .how-works .work-main-text {
+        padding-top: 70px;
+        padding-bottom: 37px;
+    }
+
+    .how-it-works .how-works .work-main-text h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .how-it-works .video-testimonial .video-image {
+        margin-bottom: -59px;
+    }
+
+    .how-it-works .video-testimonial .video-image img {
+        width: 90%;
+        border: 9px solid #ffffff;
+        box-shadow: 9.06606px 13.5991px 36.2642px rgba(0, 0, 0, 0.14);
+    }
+
+    .how-it-works .video-testimonial .video-play-main .play-icon {
+        height: 52px;
+        width: 52px;
+    }
+
+    .how-it-works .video-testimonial .video-player span {
+        transform: translate(-60%,-40%);
+        padding: 0;
+    }
+
+    .how-it-works .video-testimonial .video-player .fa-xmark {
+        width: 15px;
+        height: 15px;
+    }
+
+    .how-it-works .video-testimonial .video-play-main .play-icon .play {
+        width: 12px;
+        height: 10px;
+    }
+
+    /* how-it-works-end */
+
+    /* vision-start */
+
+    .vision {
+        padding-top: 142px;
+        padding-bottom: 84px;
+        padding-right: 0;
+    }
+
+    .vision .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+
+    .vision .main-illustration .damaged-products p {
+        padding-top: 40px;
+        padding-right: 0;
+    }
+
+    .vision .main-illustration .img-block {
+        padding-right: 0;
+    }
+
+    /* vision-end */
+
+    /* mission-start */
+
+    .mission {
+        padding-bottom: 61px;
+        padding-right: 0;
+    }
+
+    .mission .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 69px;
+    }
+
+    .mission .damaged-products h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .mission .damaged-products p {
+        padding-top: 4px;
+    }
+
+    .mission .main-illustration .img-block {
+        padding-left: 0;
+    }
+
+    /* mission-end */
+
+    
+    /* benefits-for-consumers-start */
+
+    .benefits-for-consumers {
+        padding-top: 46px;
+        padding-bottom: 61px;
+    }
+
+    .benefits-for-consumers .eclipse-pink {
+        right: 50%;
+        width: 222px;
+        height: 111px;
+        transform: translate(50%, 0);
+    }
+
+    .benefits-for-consumers .wave-pink {
+        height: 207px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-title {
+        margin-bottom: 30px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-title h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list .row .col-md-3 {
+        width: 50%;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list {
+        margin-left: -5px;
+        margin-right: -5px;
+        margin-top: -8px;
+        margin-bottom: -8px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list .benefit-list-item {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 28px;
+        padding-bottom: 37px;
+        height: 180px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list .benefit-list-text p {
+        font-size: 12.5988px;
+        line-height: 17px;
+    }
+
+    /* benefits-for-consumers-end */
+
+    /* benefits-for-retailers-start */
+
+    .benefits-for-retailers {
+        padding-top: 75px;
+        padding-bottom: 80px;
+    }
+
+    .benefits-for-retailers .dot-yellow {
+        width: 100%;
+        height: 487px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-heading {
+        text-align: center;
+    }
+
+    .benefits-for-retailers .retailers .retailers-heading h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 27px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-heading h2 span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-left {
+        margin-bottom: 0;
+        margin-right: 0;
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-left .retailers-list {
+        margin-bottom: 14px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-right {
+        margin-bottom: 0;
+        margin-right: 0;
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-right .retailers-list {
+        margin-bottom: 14px;
+    }
+
+    .retailers .list-with-margin {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+        /* retailer-common-start */
+
+        .benefits-for-retailers .retailers .retailers-list {
+            display: flex;
+            flex: 0 0 50%;
+            flex-direction: column;
+            float: none;
+            max-width: 50%;
+            width: 100%;
+            padding: 0 5px;
+            padding-top: 8px;
+            /* padding-bottom: 15px;
+            padding-left: 10px; */
+            margin-bottom: 14px;
+        }
+
+        .benefits-for-retailers .retailers .retail-image img {
+            width: 30px;
+            height: 35px;
+        }
+
+        .benefits-for-retailers .retailers .retail-text p {
+            font-size: 16px;
+            line-height: 20px;
+            padding-top: 7px;
+        }
+        
+        /* retailer-common-end */
+        
+    /* benefits-for-retailers-end */
+
+    /* work-with-us-start */
+
+    .work-with-us {
+        padding-top: 99px;
+        padding-bottom: 70px;
+    }
+
+    .work-with-us .form-section .dot-form {
+        width: 58px;
+        height: 58px;
+        transform: translate(0px, 37px);
+    }
+
+    .work-with-us .form-section .round-form {
+        width: 155px;
+        height: 68px;
+        z-index: -1;
+    }
+
+    .work-with-us .form-section .wave-form {
+        width: 142px;
+        height: 91px;
+    }
+
+    .work-with-us .form-section {
+        padding-top: 36px;
+        padding-bottom: 46px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .work-with-us .form-section .form-heading h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+
+    /* work-with-us-end */
+
+}
+
+@media only screen and (max-width: 575.9px) {
+    
+    /* header-start */
+
+    .navbar-nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .whole-navbar .header-contact {
+        text-align: center;
+    }
+
+    .whole-navbar .navbar ul li {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .whole-navbar .navbar ul li:last-child {
+        padding-right: 0;
+    }
+
+    /* header-end */
+
+    /* footer-start */
+
+    .footer {
+        padding-top: 41px;
+        padding-bottom: 50px;
+    }
+
+    .footer .footer-main {
+        text-align: center;
+    }
+
+    .footer .footer-main .row:first-child {
+        order: 1;
+    }
+
+    .footer .footer-main .row .col-sm-6 {
+        order: 3;
+    }
+
+    .footer .footer-main .row:last-child {
+        order: 2;
+    }
+
+    .footer .footer-main .row .footer-logo {
+        padding-bottom: 22px;
+    }
+
+    .footer .footer-main .row .footer-icons {
+        padding-bottom: 31px;
+    }
+
+    .footer .footer-main .footer-icons {
+        float: none;
+    }
+
+    .footer .footer-main .footer-icons ul {
+        justify-content: center;
+    }
+
+    /* footer-end */
+
+    /* hero-section-start */ 
+
+    .hero-section .hero-main {
+        text-align: center;
+    }
+    
+    .hero-section .half-round {
+        width: 231px;
+        bottom: -186px;
+    }
+
+    .hero-main .hero-logo {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    .hero-main .hero-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero-section .all-hero-image {
+        padding-top: 40px;
+        float: none;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .hero-section .all-hero-image:before {
+        left: -40px;
+        bottom: -120px;
+        width: 234px;
+        height: 250px;
+    }
+
+    .hero-section .all-hero-image .mobile {
+        width: 234px;
+        height: 471px;
+        float: none;
+        margin-bottom: -79px;
+        margin-top: 0;
+    }
+
+    /* hero-section-end */
+
+    /* fixing-and-repairing-start */
+
+    .main-fixing-and-repairing .main-illustration .img-block {
+        padding-left: 0;
+    }
+
+    .main-fixing-and-repairing {
+        padding-left: 0;
+        margin-top: 240px;
+        margin-bottom: 84px;
+    }
+
+    .main-illustration .damaged-products {
+        float: none;
+        padding-top: 0;
+        padding-bottom: 41px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-illustration .img-block {
+        position: relative;
+        transform: none;
+    }
+
+    .main-illustration .img-block img {
+        width: 100%;
+        padding: 0 45px;
+    }
+
+    .main-illustration .damaged-products h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .main-illustration .damaged-products p {
+        font-size: 14px;
+        line-height: 19px;
+        padding-top: 32px;
+    }
+
+    /* fixing-and-repairing-end */
+
+    /* costly-for-start */
+
+     .main-costly-for {
+        margin-bottom: 63px;
+        padding-right: 0;
+    }
+
+    .main-costly-for .main-illustration .img-block {
+        padding-right: 0;
+    }
+
+    .main-costly-for .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 46px;
+    }
+
+    .main-costly-for .main-illustration .damaged-products p {
+        padding-right: 0;
+    }
+
+    /* costly-for-end */
+
+    /* what-we-do-start */
+
+    .what-we-do {
+        padding-top: 48px;
+        padding-bottom: 42px;
+    }
+
+    .what-we-do .shape-pink {
+        width: 355px;
+        height: 467px;
+    }
+
+    .what-we-do .main-illustration .img-block {
+        padding-left: 0;
+    }
+
+    .what-we-do .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .what-we-do .main-illustration .damaged-products p {
+        padding-top: 40px;
+    }
+
+    /* what-we-do-end */
+
+    /* how-it-works-start */
+
+    .how-it-works .eclipse-yellow {
+        width: 267px;
+        height: 267px;
+    }
+
+    .how-it-works .how-works .work-main-text {
+        padding-top: 70px;
+        padding-bottom: 37px;
+    }
+
+    .how-it-works .how-works .work-main-text h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .how-it-works .video-testimonial .video-image {
+        margin-bottom: -59px;
+    }
+
+    .how-it-works .video-testimonial .video-image img {
+        width: 100%;
+        border: 9px solid #ffffff;
+        box-shadow: 9.06606px 13.5991px 36.2642px rgba(0, 0, 0, 0.14);
+    }
+
+    .how-it-works .video-testimonial .video-play-main .play-icon {
+        height: 52px;
+        width: 52px;
+    }
+
+    .how-it-works .video-testimonial .video-player span {
+        transform: translate(-60%,-40%);
+        padding: 0;
+    }
+
+    .how-it-works .video-testimonial .video-player .fa-xmark {
+        width: 15px;
+        height: 15px;
+    }
+
+    .how-it-works .video-testimonial .video-play-main .play-icon .play {
+        width: 12px;
+        height: 10px;
+    }
+
+    /* how-it-works-end */
+
+    /* vision-start */
+
+    .vision {
+        padding-top: 142px;
+        padding-bottom: 84px;
+        padding-right: 0;
+    }
+
+    .vision .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+
+    .vision .main-illustration .damaged-products p {
+        padding-top: 40px;
+        padding-right: 0;
+    }
+
+    .vision .main-illustration .img-block {
+        padding-right: 0;
+    }
+
+    /* vision-end */
+
+    /* mission-start */
+
+    .mission {
+        padding-bottom: 61px;
+        padding-right: 0;
+    }
+
+    .mission .main-illustration .damaged-products {
+        padding-top: 0;
+        padding-bottom: 69px;
+    }
+
+    .mission .damaged-products h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .mission .damaged-products p {
+        padding-top: 4px;
+    }
+
+    .mission .main-illustration .img-block {
+        padding-left: 0;
+    }
+
+    /* mission-end */
+
+    /* benefits-for-consumers-start */
+
+    .benefits-for-consumers {
+        padding-top: 46px;
+        padding-bottom: 61px;
+    }
+
+    .benefits-for-consumers .eclipse-pink {
+        right: 50%;
+        width: 222px;
+        height: 111px;
+        transform: translate(50%, 0);
+    }
+
+    .benefits-for-consumers .wave-pink {
+        height: 207px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-title {
+        margin-bottom: 30px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-title h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list .row .col-md-3 {
+        width: 50%;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list {
+        margin-left: -5px;
+        margin-right: -5px;
+        margin-top: -8px;
+        margin-bottom: -8px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list .benefit-list-item {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 28px;
+        padding-bottom: 37px;
+        height: 220px;
+    }
+
+    .benefits-for-consumers .benefits .benefits-list .benefit-list-text p {
+        font-size: 12.5988px;
+        line-height: 17px;
+    }
+
+    /* benefits-for-consumers-end */
+
+    /* benefits-for-retailers-start */
+
+    .benefits-for-retailers {
+        padding-top: 75px;
+        padding-bottom: 80px;
+    }
+
+    .benefits-for-retailers .dot-yellow {
+        width: 100%;
+        height: 487px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-heading {
+        text-align: center;
+    }
+
+    .benefits-for-retailers .retailers .retailers-heading h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 27px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-heading h2 span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-left {
+        margin-bottom: 0;
+        margin-right: 0;
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-left .retailers-list {
+        margin-bottom: 14px;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-right {
+        margin-bottom: 0;
+        margin-right: 0;
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits-for-retailers .retailers .retailers-list-right .retailers-list {
+        margin-bottom: 14px;
+    }
+
+    .retailers .list-with-margin {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+        /* retailer-common-start */
+
+    .benefits-for-retailers .retailers .retailers-list {
+        display: flex;
+        flex: 0 0 50%;
+        flex-direction: column;
+        float: none;
+        max-width: 50%;
+        width: 100%;
+        padding: 0 5px;
+        padding-top: 8px;
+        /* padding-bottom: 15px;
+        padding-left: 10px; */
+        margin-bottom: 14px;
+    }
+
+    .benefits-for-retailers .retailers .retail-image img {
+        width: 20px;
+        height: 23px;
+    }
+
+    .benefits-for-retailers .retailers .retail-text p {
+        font-size: 12.6px;
+        line-height: 17px;
+        padding-top: 7px;
+    }
+        
+        /* retailer-common-end */
+        
+    /* benefits-for-retailers-end */
+
+    /* work-with-us-start */
+
+    .work-with-us {
+        padding-top: 99px;
+        padding-bottom: 70px;
+    }
+
+    .work-with-us .form-section .dot-form {
+        width: 58px;
+        height: 58px;
+        transform: translate(0px, 37px);
+    }
+
+    .work-with-us .form-section .round-form {
+        width: 155px;
+        height: 68px;
+    }
+
+    .work-with-us .form-section .wave-form {
+        width: 142px;
+        height: 91px;
+    }
+
+    .work-with-us .form-section {
+        padding-top: 36px;
+        padding-bottom: 46px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .work-with-us .form-section .form-heading h2 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+
+    .work-with-us .work-form .form-group .field-icon {
+        position: absolute;
+        left: 14px;
+        top: 16px;
+    }
+
+    .work-with-us .work-form input, 
+    .work-with-us .work-form textarea {
+        width: 100%;
+        height: 49px;
+        border: none;
+        outline: none;
+        font-size: 12.7125px;
+        line-height: 17px;
+        padding: 16px 23px 16px 42px;
+    }
+
+    .work-with-us .work-form textarea {
+        height: 80px;
+    }
+
+    .work-with-us .form-section .form-start .div-button {
+        margin-top: 40px;
+    }
+
+    .work-with-us .form-section .form-start .div-button button {
+        width: 132px;
+        height: 42px;
+        font-size: 13.8559px;
+        line-height: 19px;
+    }
+
+    /* work-with-us-end */
+
+}
+
+
+@media only screen and (max-width: 319.9px) {
+
+    /* hero-section-start */
+
+    .logo-hero {
+        width: 100%;
+    }
+
+    /* hero-section-end */
+
+    /* retailers-start */
+
+    .benefits-for-retailers .retailers .retail-text p {
+        font-size: 10px;
+    }
+
+    /* retailers-end */
+
+}
