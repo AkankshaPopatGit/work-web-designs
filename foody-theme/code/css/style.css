@@ -1,0 +1,709 @@
+.container {
+    max-width: 1199px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* html.active {
+    overflow: hidden;
+} */
+
+.main-navbar {
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar-nav li {
+    margin-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav li span {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav li .social-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+.main-background-section {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: 770px;
+}
+
+.background-text-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+.small-portion .story-of-us {
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+
+.slideshow-container-2 {
+    position: relative;
+}
+
+.slideshow-container-2 .slideshow {
+    display: flex !important;
+    justify-content: center;
+}
+
+.slideshow-container-2 .story-image {
+    z-index: 999;
+}
+
+.slideshow-container-2 .story-detail {
+    width: 485px;
+    background-color: white;
+    padding: 0 60px;
+    z-index: 999;
+    padding: 0 60px;
+    padding-top: 80px;
+}
+
+.story-detail h2 {
+    font-size: 35px;
+    color: rgb(40, 55, 75);
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 65px;
+}
+
+.common-title-border * {
+    display: inline-block;
+    position: relative;
+}
+
+.common-title-border *:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 92px;
+    height: 1px;
+    background: url("../images/common-title-border.png") repeat;
+}
+
+.common-title-border.large-border *:before {
+    width: 193px;
+}
+
+.common-title-border.white-border *:before {
+    background: url("../images/common-title-white-border.png") repeat;
+}
+
+.common-title-border.text-center *:before {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.common-title-border.large-padding *:before {
+    margin-bottom: -30px;
+}
+
+.common-title-border.large-margin *:before {
+    margin-bottom: 30px;
+}
+
+.present::after {
+    content: " ";
+    background-image: url("../images/u1.png");
+    color: #151d25;
+}
+
+.story-detail p {
+    font-size: 15px;
+    color: rgb(160, 177, 166);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.story-button {
+    width: 160px;
+    height: 40px;
+    background-color: #27364a;
+}
+
+.story-detail button {
+    width: 160px;
+    height: 40px;
+    background-color: #27364a;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.john-doe {
+    position: relative;
+}
+
+.john-doe img {
+    opacity: 0.8;
+    width: 100%;
+}
+
+.john-restaurant {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.john-restaurant h3 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.john-restaurant h2 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+}
+
+.bg-text h2 {
+    font-size: 85px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+}
+
+.bg-text p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 55px;
+}
+
+.bg-text a {
+    display: flex;
+    text-decoration: none;
+    width: 175px;
+    height: 50px;
+    background-color: #151d25;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.we-present-you-our-menu .our-menu {
+    text-align: center;
+}
+
+.our-menu .menu-heading {
+    padding: 65px 0 75px 0;
+}
+
+.our-menu h2 {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgb(40, 55, 75);
+    margin: 0;
+}
+
+.list-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.list-one .col-md-3 {
+    padding: 0;
+    background-color: #9fb0a5;
+}
+
+.menu-show-more {
+    margin: 45px 0;
+}
+
+.menu-show-more h2 {
+    margin: 40px 0;
+}
+
+.menu-show-more span {
+    border: 3px solid rgb(40, 55, 75);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.menu-list .list-item {
+    padding: 40px 0;
+}
+
+.list-one .col-md-3 h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 23.427px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+}
+
+.list-one .col-md-3 p {
+    margin: 0;
+    padding: 0;
+    font-size: 12.607px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.list-one .col-md-3 h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 23.427px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+}
+
+.div-video {
+    position: relative;
+}
+
+.div-video .video-image {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.video-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 37%;
+    transform: translate(0%, -50%);
+    text-align: center;
+}
+
+.div-video .above-video-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: white;
+    margin: 0;
+    padding: 80px 0;
+}
+
+.div-video span {
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.div-video .fa-play {
+    width: 25px;
+    height: 20px;
+    color: white;
+}
+
+.div-video .video-player {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.div-video .video-player span {
+    position: absolute;
+    left: 95%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.div-video .video-player .fa-xmark {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.heading-up-to {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.heading-up-to .heading {
+    font-size: 35px;
+    color: rgb(40, 55, 75);
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    /* padding: 40px 0; */
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.heading-up-to .description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(40, 55, 75);
+    margin: 0;
+}
+
+.form-up-to {
+    text-align: center;
+    padding: 55px 0;
+}
+
+.form-up-to input {
+    width: 360px;
+    height: 55px;
+    background-color: white;
+    color: rgb(40, 55, 75);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-left: rgb(40, 55, 75) solid 3px;
+    padding-left: 30px;
+}
+
+.form-up-to button {
+    width: 205px;
+    height: 55px;
+    background-color: #151d25;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.images-up-to .row {
+    margin: 0;
+}
+
+.images-up-to .row .col-sm-4 {
+    padding: 0;
+}
+
+.upper-footer {
+    background-color: #27364a;
+    padding: 100px 0;
+}
+
+.upper-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-main h2 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+.upper-main p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.left-address {
+    margin-right: 75px;
+}
+
+.left-timings {
+    margin-right: 75px;
+}
+
+.lower-footer {
+    background-color: #151d25;
+}
+
+.lower-main {
+    padding: 35px 0;
+}
+
+.lower-main ul {
+    padding: 0;
+    margin: 0;
+}
+
+.lower-main p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.lower-main li {
+    list-style: none;
+}
+
+.lower-main .social-icons {
+    width: 35px;
+    height: 30px;
+    color: white;
+    margin-left: 35px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.9px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .navbar-nav li {
+        margin-left: 0px;
+    }
+
+    .slideshow-container-2 .story-image {
+        width: 40%;
+    }
+
+    .story-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slideshow-container-2 .story-detail {
+        width: 40%;
+    }
+
+    .john-doe img {
+        height: 400px;
+    }
+
+    .div-video .video-image {
+        height: 400px;
+    }
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .main-navbar {
+        background-color: #151d25;
+    }
+
+    .navbar-nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .bg-text h2 {
+        font-size: 55px;
+    }
+
+    .slideshow-container-2 .slideshow {
+        display: flex !important;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .story-image img {
+        width: 100%;
+    }
+
+    .slideshow-container-2 .story-detail {
+        width: auto;
+        height: auto;
+    }
+
+    .john-doe img {
+        height: 400px;
+    }
+
+    .div-video .video-image {
+        height: 400px;
+    }
+
+    .list-two {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .list-item {
+        margin-bottom: 10px;
+    }
+
+    .list-image {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 575.9px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .main-navbar {
+        background-color: #151d25;
+    }
+
+    .navbar-nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .bg-text h2 {
+        font-size: 55px;
+    }
+
+    .slideshow-container-2 .slideshow {
+        display: flex !important;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .story-image img {
+        width: 100%;
+    }
+
+    .slideshow-container-2 .story-detail {
+        width: auto;
+        height: auto;
+    }
+
+    .john-doe img {
+        height: 400px;
+    }
+
+    .list-one img {
+        height: 300px;
+    }
+
+    .div-video .video-image {
+        height: 400px;
+    }
+
+    .div-video .video-player span {
+        padding: 2px;
+    }
+
+    .div-video .video-player .fa-xmark {
+        width: 15px;
+        height: 15px;
+    }
+
+    .form-up-to input {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .form-up-to button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .upper-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .list-two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .list-item {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 280.9px) {
+    .slideshow-container-2 .story-detail {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .lower-main .social-icons {
+        margin-left: 0px;
+    }
+}
